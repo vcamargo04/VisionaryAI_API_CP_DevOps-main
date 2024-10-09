@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisionaryAI.API", "VisionaryAI.API\VisionaryAI.API.csproj", "{000449E6-3F4A-4C9C-8D24-B345F2F48202}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{000449E6-3F4A-4C9C-8D24-B345F2F48202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000449E6-3F4A-4C9C-8D24-B345F2F48202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000449E6-3F4A-4C9C-8D24-B345F2F48202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000449E6-3F4A-4C9C-8D24-B345F2F48202}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1FD6DA5-37A0-4876-BD68-DDF6E19E60F9}
+	EndGlobalSection
+EndGlobal
