@@ -18,6 +18,7 @@ Pedro Gomes Fernandes- RM551480
 A abordagem escolhida foi de uma api monolítica, pois armazena em um único projeto: todos os elementos da aplicação (controladores, modelos, repositórios e dados) estão organizados dentro de uma mesma solução.
 E também pela escalabilidade, porque o crescimento e a adição de novas funcionalidades continuam sendo gerenciados dentro de um único projeto, ao invés de dividir as responsabilidades em microservices.
 
+
 ## Diferenças entre as abordagens
 
 A arquitetura monolítica é uma aplicação unificada, onde todas as funcionalidades estão integradas e executadas como um único bloco. Ela é mais simples de desenvolver e gerenciar inicialmente.
@@ -55,13 +56,13 @@ Depois de passar o paramêtro, clicar no botão "Execute" e a requisição será
 #### Buscar todas as empresas
 
 ```http
-  GET /api/Empresas/BuscarTodasEmpresas
+  GET /api/Empresas
 ```
 
 #### Buscar empresa por id 
 
 ```http
-  GET /api/Empresas/BuscarPorId/{id}
+  GET /api/Empresas/{id}
 ```
 
 | Parâmetro | Tipo   | Descrição                                    |
@@ -71,7 +72,7 @@ Depois de passar o paramêtro, clicar no botão "Execute" e a requisição será
 #### Cadastrar empresa 
 
 ```http
-  POST /api/Empresas/Cadastrar
+  POST /api/Empresas
 ```
 
 Body:
@@ -96,7 +97,7 @@ Body:
 #### Atualizar empresa 
 
 ```http
-  PUT /api/Empresas/Atualizar/{id}
+  PUT /api/Empresas/{id}
 ```
 
 | Parâmetro | Tipo   | Descrição                                       |
@@ -124,7 +125,7 @@ Body:
 #### Excluir empresa
 
 ```http
-  DELETE /api/Empresas/Excluir/{id}
+  DELETE /api/Empresas/{id}
 ```
 
 | Parâmetro | Tipo   | Descrição                                     |
@@ -136,13 +137,13 @@ Body:
 #### Buscar todas as cidades
 
 ```http
-  GET /api/Cidades/BuscarTodasCidades
+  GET /api/Cidades
 ```
 
 #### Buscar cidade por id 
 
 ```http
-  GET /api/Cidades/BuscarPorId/{id}
+  GET /api/Cidades/{id}
 ```
 
 | Parâmetro | Tipo   | Descrição                                    |
@@ -152,7 +153,7 @@ Body:
 #### Cadastrar cidade 
 
 ```http
-  POST /api/Cidades/Cadastrar
+  POST /api/Cidades
 ```
 
 Body:
@@ -173,7 +174,7 @@ Body:
 #### Atualizar cidade 
 
 ```http
-  PUT /api/Cidades/Atualizar/{id}
+  PUT /api/Cidades/{id}
 ```
 
 | Parâmetro | Tipo   | Descrição                                       |
@@ -197,7 +198,7 @@ Body:
 #### Excluir cidade
 
 ```http
-  DELETE /api/Cidades/Excluir/{id}
+  DELETE /api/Cidades/{id}
 ```
 
 | Parâmetro | Tipo   | Descrição                                     |
@@ -209,13 +210,13 @@ Body:
 #### Buscar todas as fontes de dados
 
 ```http
-  GET /api/FontesDeDados/BuscarTodasFontesDados
+  GET /api/FontesDeDados
 ```
 
 #### Buscar fonte de dado por id 
 
 ```http
-  GET /api/FontesDeDados/BuscarPorId/{id}
+  GET /api/FontesDeDados/{id}
 ```
 
 | Parâmetro | Tipo   | Descrição                                    |
@@ -225,7 +226,7 @@ Body:
 #### Cadastrar fonte de dados 
 
 ```http
-  POST /api/FontesDeDados/Cadastrar
+  POST /api/FontesDeDados
 ```
 
 Body:
@@ -246,7 +247,7 @@ Body:
 #### Atualizar fonte de dados 
 
 ```http
-  PUT /api/FontesDeDados/Atualizar/{id}
+  PUT /api/FontesDeDados/{id}
 ```
 
 | Parâmetro | Tipo   | Descrição                                       |
@@ -270,7 +271,7 @@ Body:
 #### Excluir fonte de dados
 
 ```http
-  DELETE /api/FonteDeDados/Excluir/{id}
+  DELETE /api/FonteDeDados/{id}
 ```
 
 | Parâmetro | Tipo   | Descrição                                     |
